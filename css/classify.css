@@ -1,0 +1,241 @@
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin: 0;
+	padding:0;
+}
+html{
+	/*font-size: 100px;*/
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+/*头部*/
+.header{
+	width:100%;
+	height:0.4rem;
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	background:rgba(221,39,39,.8);
+	position:fixed;
+	top:0;
+	z-index: 5;
+}
+.header a{
+	display: inline-block;
+}
+.headmid{
+	width:2.8rem;
+	height: 0.28rem;
+	display: flex;
+	align-items: center;
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 3px;	
+}
+.headmid input{
+	border: none;
+	background: none;
+}
+
+.headmid img{
+	width: 0.2rem;
+	height: 0.2rem;
+	
+}
+.headbot img{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.iconfont{
+	display:block;
+}
+
+/*内容*/
+.content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.contentLeft{
+	font-size: 16px;
+	position: fixed;
+	top:0.4rem;
+	width:25%;
+	height: 100%;
+	background:#E9E9E9;	
+}
+.contentLeft li{
+	text-align: center;
+	line-height: 0.5rem;
+	border-bottom: 1px solid #c4c4c4;
+}
+.contentLeft a{
+	color: #333333;	
+}
+.baiju{
+	background: #fff;  
+}
+.baiju a{
+	 color: #cd0011;
+}
+.contentRight{
+	width: 70%;
+	height: 100%;
+	position:absolute;
+	top:0.4rem;
+	right: 0;
+	margin-left:5%;
+}
+.bann img{
+	height:0.6rem;
+	width: 100%;
+}
+.cont-one{
+	line-height: 0.27rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size:14px;
+	color: #666666;
+	text-indent:12px;
+	background: #E9E9E9;
+	border-left: 5px solid  rgb(169, 180, 54);
+}
+.xiangxng{
+	line-height: 0.27rem;
+	width: 100%;
+	font-size:14px;
+	color: #666666;
+	text-indent:12px;
+	background: #E9E9E9;
+	border-left: 5px solid #7f06b7;	
+}
+
+.shangpin{
+	line-height: 0.27rem;
+	width: 100%;
+	font-size:14px;
+	color: #666666;
+	text-indent:12px;
+	background: #E9E9E9;
+	border-left: 5px solid rgb(235, 185, 13);	
+}
+.jiage{
+	line-height: 0.27rem;
+	width: 100%;
+	font-size:14px;
+	color: #666666;
+	text-indent:12px;
+	background: #E9E9E9;
+	border-left: 5px solid #7f06b7;	
+}
+.emitlist{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-items:center;
+}
+.emitlist a{
+	width: 30%;
+	color: #666;
+	font-size:12px;
+	line-height: 0.3rem;
+	margin-left:0.08rem;
+	margin-top:0.12rem;
+}
+.emitlist a img{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.xiangxing{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-items:center;
+}
+.xiangxing a{
+	width: 30%;
+	color: #666;
+	font-size:12px;
+	line-height: 0.3rem;
+	margin-left:0.08rem;
+	margin-top:0.12rem;
+}
+.chandi{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-items:center;
+}
+.chandi a{
+	width: 30%;
+	color: #666;
+	font-size:12px;
+	line-height: 0.4rem;
+	margin-left:0.08rem;
+	margin-top:0.12rem;	  
+}
+.jai{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-items:center;
+}
+.jai a{
+	width: 30%;
+	color: #666;
+	font-size:12px;
+	line-height: 0.4rem;
+	margin-left:0.08rem;
+	margin-top:0.12rem;	
+}
+
+
+
+/*尾部*/
+.footer{
+	width: 100%;
+	background:#19abe4;
+	position: fixed;
+	bottom: 0;
+	
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	height: 0.48rem;
+	border-top: 1px solid #bfbfbf;
+}
+.foot a{
+	font-size:12px;
+	color: white;
+	display: block;
+}
+
+.shouy i{
+	color: red;
+}
+
+.shouy span{
+	color: red;
+}
+
+
+.foot a img{
+	width:0.3rem;
+	height: 0.3rem;
+}

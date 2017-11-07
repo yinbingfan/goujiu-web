@@ -1,0 +1,230 @@
+
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 26.67vw;
+    height: 100%;
+    body{
+        height: 100%;
+         font-family:Arial;
+    }
+}
+
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    img{
+        border: 0;
+    }
+}
+//head
+.header{
+    width:100%;
+    height:0.4rem;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background:gray;
+    a{
+    display: inline-block;
+    }
+    
+    
+    
+}
+.headmid{
+    font-size: 14px;
+    text-align: center;
+   
+}
+.headbot{
+    img{
+    width: 0.2rem;
+    height: 0.2rem;
+    }
+}
+.iconfont{
+    display:block;
+}
+
+.content{
+    .banner{
+        background:#ca0286;;
+        width:100%;
+        height:1rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            .rentou{
+            width:0.6rem;
+            height:0.6rem;
+            border-radius: 50%;
+            background:#ddd;
+//          display: block;
+            font-size:12px;
+            color:black;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+            align-items: center;
+       
+            img{
+                width:0.30rem;
+                height:0.30rem;
+                
+            }
+        
+        
+        }
+    }
+    .banno{
+    width: 100%;
+    background: #591d83;
+    line-height: 0.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+        span{
+            display:inline-block;
+        }
+        .shoucang{
+            display: block;
+            color: white;
+             font-size: 14px;
+        }
+        .liulan{
+            display: block;
+            color: white;
+            font-size: 14px;
+        }
+   
+   
+   
+   
+    }
+    
+    .dingdan{
+    line-height: 0.4rem;
+    width: 94%;
+    margin:0 3%;
+    background: white;
+    font-size:13px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+       .dingleft{
+        color: black;
+        }
+       .dingright{
+        color: grey;
+        } 
+     }
+    
+    .msglist{
+    width: 100%;
+    line-height: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+        a{
+        display: block;
+        font-size: 13px;
+        color:gray ;
+        }
+    
+    }
+    .enpy{
+    width: 100%;
+    height: 0.1rem;
+    background: #E9E9E9;
+    }
+    .yuge{
+    width: 100%;
+    line-height: 0.24rem;
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    .zhanghu{
+        color: grey;
+    }
+    .juan{
+    color: grey;
+    }
+    .jifen{
+    color: grey;
+    }
+    
+    }
+    .listsid{
+        width: 100%;
+        li{
+    width: 94%;
+    line-height: 0.3rem;
+    margin:0 3%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+        a{
+    color: black;
+    font-size: 13px;
+    }
+    .phonenumber{
+    color: red;
+}
+    }
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    background:#19abe4;
+    position: fixed;
+    bottom: 0;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 0.48rem;
+    border-top: 1px solid #bfbfbf;
+    a{
+    font-size:12px;
+    color: white;
+    display: block;
+    }a img{
+    width:0.3rem;
+    height: 0.3rem;
+}
+    
+    
+}
+.shouy{
+    i{
+    color: red;
+    }
+    span{
+    color: red;
+    }
+   
+    
+}
